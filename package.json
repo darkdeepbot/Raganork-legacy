@@ -1,7 +1,7 @@
 {
-  "name": "raganork",
+  "name": "Dark-Deep-Bot",
   "version": "4.0.1",
-  "description": "Raganork whatsapp bot- Modified version of Whatsasena by Yusuf usta.",
+  "description": "Dark Deep whatsapp bot- Modified version of Whatsasena by Deep Kumar Dutta.",
   "main": "./Raganork/bot.js",
   "scripts": {
     "start": "supervisor -s index.js"

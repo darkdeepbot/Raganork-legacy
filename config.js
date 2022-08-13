@@ -29,7 +29,7 @@ module.exports = {
     M_REPLY_VAR: process.env.M_REPLY_VAR === undefined ? 'true' : process.env.M_REPLY_VAR,
     AFNN: process.env.TAG_REPLY === undefined ? '919074309534@s.whatsapp.net' : process.env.TAG_REPLY,
     NBSK: process.env.ALL_NUMBER === undefined ? '916291588399' : process.env.ALL_NUMBER,
-    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? 'ᴰᵃʳᵏ ᴰᵉᵉᵖ;ʀᴀɢᷨᴀͦɴͭᴏʀᴋ;https://www.linkpicture.com/q/rgnk.jpg' : process.env.AUDIO_DATA,
+    AUDIO_DATA: process.env.AUDIO_DATA === undefined ? 'ᴅᴀʀᴋ ᴅᴇᴇᴘ;ᴋᴇᴘʟᴀʀ;https://www.linkpicture.com/q/rgnk.jpg' : process.env.AUDIO_DATA,
     BLOCKCHAT: process.env.BLOCK_CHAT === undefined ? false : process.env.BLOCK_CHAT,
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
@@ -92,6 +92,6 @@ module.exports = {
     WITAI_API: "TEYMELA6DMC4XB5YM3SPTTQWUUIBKURG",
     SUPPORT2: "916291588399",
     SUPPORT3: "916291588399",
-    ST:"https://gist.github.com/souravkl11/",
+    ST:"https://gist.github.com/kumarduttadeep/",
     RT:"4aa49c7848ba4e9224852576223e5de1/raw"
 };

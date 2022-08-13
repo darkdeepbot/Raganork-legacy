@@ -22,7 +22,7 @@ module.exports = {
     CALL_BLOCK: process.env.CALL_BLOCK === undefined ? 'false' : process.env.CALL_BLOCK,
     ANTI_FILTER: process.env.REMOVE_FILTER === undefined ? 'Myre' : process.env.REMOVE_FILTER,
     GANSTYLE: process.env.GAN_IMAGE === undefined ? 'https://i.hizliresim.com/loUtAb.jpg' : process.env.GAN_IMAGE,
-    LANG: process.env.LANGUAGE === undefined ? 'TR' : process.env.LANGUAGE.toUpperCase(),
+    LANG: process.env.LANGUAGE === undefined ? 'EN' : process.env.LANGUAGE.toUpperCase(),
     ALIVEMSG: process.env.ALIVE_MESSAGE === undefined ? 'default' : process.env.ALIVE_MESSAGE,
     KICKMEMSG: process.env.KICKME_MESSAGE === undefined ? 'default' : process.env.KICKME_MESSAGE,
     M_REPLY: process.env.M_REPLY === undefined ? 'Hey!' : process.env.M_REPLY,

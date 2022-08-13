@@ -23,7 +23,7 @@ let wk = conf.WORKTYPE == 'public' ? false : true
 var vtalk_dsc = ''
 var reply_eva = ''
 if (conf.LANG == 'TR') vtalk_dsc = 'Eva sesli sohbetini başlatır.', reply_eva = '*Herhangi Bir Sesli Mesaja Yanıt Verin!*'
-if (conf.LANG == 'EN') vtalk_dsc = 'Starts to raganork voice chat.', reply_eva = '*Reply to Any Voice Message!*'
+if (conf.LANG == 'EN') vtalk_dsc = 'Starts to dark deep voice chat.', reply_eva = '*Reply to Any Voice Message!*'
 if (conf.LANG == 'AZ') vtalk_dsc = 'Eva səsli söhbətinə başlayır.', reply_eva = '*Hər hansı bir səsli mesaja cavab verin!*'
 if (conf.LANG == 'PT') vtalk_dsc = 'Começa o bate-papo por voz de Eva.', reply_eva = '*Responder a qualquer mensagem de voz!*'
 if (conf.LANG == 'RU') vtalk_dsc = 'Запускает голосовой чат Eva.', reply_eva = '*Ответьте на любое голосовое сообщение!*'
@@ -73,12 +73,12 @@ New.addCommand({on: 'text', fromMe: wk, dontAddCommandList: true, deleteCommand:
         await axios.get('http://api.brainshop.ai/get?bid=159572&key=usZjYZjRBVJcwN1S&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
             var fins = ''                           
             if (conf.LANG !== 'EN') {
-                ceviri = await translatte(response.data.cnt.replace('Raganork', conf.BOTSK).replace('Souravkl11', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), {from: 'auto', to: conf.LANG});
+                ceviri = await translatte(response.data.cnt.replace('Dark Deep', conf.BOTSK).replace('☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), {from: 'auto', to: conf.LANG});
                 if ('text' in ceviri) {
                     fins = ceviri.text
                 }
             } else { fins = response.data.cnt }
-            await message.client.sendMessage(message.jid,fins.replace('Raganork', conf.BOTSK).replace('Souravkl11', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), MessageType.text, { quoted: message.data})
+            await message.client.sendMessage(message.jid,fins.replace('Dark Deep', conf.BOTSK).replace('☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), MessageType.text, { quoted: message.data})
         })
     }
 }));
@@ -105,12 +105,12 @@ New.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (messag
                         await axios.get('http://api.brainshop.ai/get?bid=159572&key=usZjYZjRBVJcwN1S&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
                             var fins = ''                           
                             if (conf.LANG !== 'EN') {
-                                ceviri = await translatte(response.data.cnt.replace('Raganork', conf.BOTSK).replace('Souravkl11', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), {from: 'auto', to: conf.LANG});
+                                ceviri = await translatte(response.data.cnt.replace('Dark Deep', conf.BOTSK).replace('☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), {from: 'auto', to: conf.LANG});
                                 if ('text' in ceviri) {
                                     fins = ceviri.text
                                 }
                             } else { fins = response.data.cnt }
-                            await message.client.sendMessage(message.jid,fins.replace('Raganork', conf.BOTSK).replace('Souravkl11', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), MessageType.text, { quoted: message.data})
+                            await message.client.sendMessage(message.jid,fins.replace('Dark Deep', conf.BOTSK).replace('☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), MessageType.text, { quoted: message.data})
                         })
                     }
                 })
@@ -131,12 +131,12 @@ New.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (messag
                     await axios.get('http://api.brainshop.ai/get?bid=159572&key=usZjYZjRBVJcwN1S&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
                         var fins = ''                           
                         if (conf.LANG !== 'EN') {
-                            ceviri = await translatte(response.data.cnt.replace('Raganork', conf.BOTSK).replace('Souravkl11', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), {from: 'auto', to: conf.LANG});
+                            ceviri = await translatte(response.data.cnt.replace('Dark Deep', conf.BOTSK).replace('☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), {from: 'auto', to: conf.LANG});
                             if ('text' in ceviri) {
                                 fins = ceviri.text
                             }
                         } else { fins = response.data.cnt }
-                        await message.client.sendMessage(message.jid,fins.replace('Raganork', conf.BOTSK).replace('Souravkl11', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), MessageType.text, { quoted: message.data})
+                        await message.client.sendMessage(message.jid,fins.replace('Dark Deep', conf.BOTSK).replace('☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), MessageType.text, { quoted: message.data})
                     })
                 }
             } else {
@@ -154,12 +154,12 @@ New.addCommand({on: 'text', fromMe: false, deleteCommand: false}, (async (messag
                 await axios.get('http://api.brainshop.ai/get?bid=159572&key=usZjYZjRBVJcwN1S&uid=' + unique_ident + '&msg=' + uren).then(async (response) => {
                     var fins = ''                           
                     if (conf.LANG !== 'EN') {
-                        ceviri = await translatte(response.data.cnt.replace('Raganork', conf.BOTSK).replace('Souravkl11', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), {from: 'auto', to: conf.LANG});
+                        ceviri = await translatte(response.data.cnt.replace('Dark Deep', conf.BOTSK).replace('☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), {from: 'auto', to: conf.LANG});
                         if ('text' in ceviri) {
                             fins = ceviri.text
                         }
                     } else { fins = response.data.cnt }
-                    await message.client.sendMessage(message.jid,fins.replace('Raganork', conf.BOTSK).replace('Souravkl11', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), MessageType.text, { quoted: message.data})
+                    await message.client.sendMessage(message.jid,fins.replace('Dark Deep', conf.BOTSK).replace('☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), MessageType.text, { quoted: message.data})
                 })
             }
         }
@@ -189,7 +189,7 @@ New.addCommand({ pattern: 'vtalk$', desc: vtalk_dsc,dontAddCommandList: true, fr
                 var son = encodeURI(ssc)
                 await axios.get('http://api.brainshop.ai/get?bid=159572&key=usZjYZjRBVJcwN1S&uid=' + unique_ident + '&msg=' + son).then(async (response) => {
                     var trmsg = ''
-                    cevir = await translatte(response.data.cnt.replace('Raganork', conf.BOTSK).replace('Souravkl11', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), {from: 'auto', to: conf.LANG});
+                    cevir = await translatte(response.data.cnt.replace('Dark Deep', conf.BOTSK).replace('☬𝕯𝖊𝖊𝖕𝖉𝖎𝖆☬', conf.PLK).replace('Aco', conf.BOTSK).replace('acobot', conf.BOTSK), {from: 'auto', to: conf.LANG});
                     if ('text' in cevir) {
                         trmsg = cevir.text
                     }
